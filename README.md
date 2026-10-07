@@ -59,8 +59,6 @@ git clone <your-repo-url>
 cd expense-tracker-mcp
 uv sync
 ```
-The project pins `mcp<2` because FastMCP was renamed in MCP 2.x.
-Test in the MCP Inspector
 ```
 uv run mcp dev server.py
 ```
